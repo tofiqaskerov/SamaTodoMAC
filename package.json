@@ -1,0 +1,15 @@
+{
+  "name": "sama-todo",
+  "version": "1.0.0",
+  "description": "Lofi background To-Do desktop app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . SamaTodo --platform=win32 --arch=x64 --overwrite --out=build --icon=icon_sama.ico"
+  },
+  "devDependencies": {
+    "electron": "^39.2.2",
+    "electron-packager": "^17.1.2",
+    "electron-reload": "^2.0.0-alpha.1"
+  }
+}

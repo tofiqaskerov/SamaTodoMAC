@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lofi To-Do</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/icon_sama.ico">
+</head>
+
+<body>
+    <div id="dragArea"></div>
+    <div id="titleBar">
+        <button id="closeMain">×</button>
+    </div>
+    <h1 class="title">To-Do</h1>
+    <p class="subtitle">Calm mind, cozy tasks ✨</p>
+
+    <div class="card">
+        <div class="input-row">
+            <textarea id="taskInput" placeholder="Write something..."></textarea>
+            <div class="add-btn" id="addBtn">+</div>
+        </div>
+        <div id="list"></div>
+    </div>
+
+    <div class="trash-box">
+        <img src="img/7e69c751-fdd6-4fcb-ab95-9047138b9fb5.png" class="trash-icon">
+        <div class="trash-count" id="trashCount">0</div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

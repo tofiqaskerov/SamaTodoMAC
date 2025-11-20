@@ -1,0 +1,31 @@
+# Node
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Build output
+build/
+dist/
+out/
+
+# Electron cache
+/.cache
+/.electron
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# VSCode
+.vscode/
+
+# Environment
+.env
+
+# Packager temp files
+SamaTodo-win32-x64/
+SamaTodo-darwin-x64/
